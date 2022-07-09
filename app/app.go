@@ -12,9 +12,9 @@ import (
 func Gerar() *cli.App {
 	app := cli.NewApp()
 	app.Name = "Aplicação de linha de comando"
-	app.Usage = "Busca IPs e nomes"
-	app.Author = "lucasafonsokremer"
-	app.Version = "0.0.1"
+	app.Usage = "Busca IPs e nameservers"
+	app.Author = "https://github.com/lucasafonsokremer"
+	app.Version = "1.0.0"
 
 	// Criação das flags
 	flags := []cli.Flag{

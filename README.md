@@ -32,16 +32,16 @@ domain-checker --help
 
 ```
 NAME:
-   Aplicação de linha de comando - Busca IPs e nomes
+   Aplicação de linha de comando - Busca IPs e nameservers
 
 USAGE:
    main [global options] command [command options] [arguments...]
 
 VERSION:
-   0.0.2
+   1.0.0
 
 AUTHOR:
-   lucasafonsokremer
+   https://github.com/lucasafonsokremer
 
 COMMANDS:
    ip           Busca IPs de endereços na internet
@@ -55,6 +55,6 @@ GLOBAL OPTIONS:
 
 ## ToDo
 
-- Automated tests
+- Improve tests
 - CLI auto-completion
 - New functions like HTTP status check
