@@ -2,13 +2,33 @@
 
 domain-checker is a GO CLI tool to check domains
 
+## Instalation
+
+### Manual
+
+Go to the [releases](https://github.com/lucasafonsokremer/domain-checker/releases) page and download the latest one for your platform. Just place the binary in your $PATH and you are good to go.
+
 ## Usage
 
-### Get Help
+```
+domain-checker [command] [--flags]
+```
+
+- A few examples
+
+```
+$ domain-checker nameservers --host amazon.com.br
+
+$ domain-checker ip --host amazon.com.br
+```
+
+- Get Help
 
 ```
 domain-checker --help
 ```
+
+- Output:
 
 ```
 NAME:
