@@ -18,3 +18,7 @@ inputs:
   args:
     description: 'Arguments to pass to GoReleaser'
     required: false
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
