@@ -52,3 +52,9 @@ GLOBAL OPTIONS:
    --help, -h     show help
    --version, -v  print the version
 ```
+
+## ToDo
+
+- Automated tests
+- CLI auto-completion
+- New functions like HTTP status check
