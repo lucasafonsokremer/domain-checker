@@ -14,7 +14,7 @@ func Gerar() *cli.App {
 	app.Name = "Aplicação de linha de comando"
 	app.Usage = "Busca IPs e nomes"
 	app.Author = "lucasafonsokremer"
-	app.Version = "1.0.0"
+	app.Version = "0.0.1"
 
 	// como as flags são iguais para o segundo comando eu deixo aqui fora
 	// caso contrario eu botaria dentro de commands
