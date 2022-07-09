@@ -8,15 +8,7 @@ on:
 jobs:
   build:
     name: GoReleaser build
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os:
-          - ubuntu-latest
-          - macOS-latest
-          - windows-latest
-        version:
-          - latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Check out code into the Go module directory
@@ -32,8 +24,7 @@ jobs:
       - name: Run GoReleaser
         uses: ./ 
         with:
-          distribution: ${{ matrix.distribution }}
-          version: ${{ matrix.version }}
+          version: latest
           args: release --rm-dist
         env:
           GITHUB_TOKEN: ${{ secrets.GO_RELEASER_GITHUB_TOKEN }}
