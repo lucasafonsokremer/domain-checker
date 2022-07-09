@@ -32,7 +32,7 @@ jobs:
         id: go
 
       - name: Run GoReleaser
-        uses: ./ 
+        uses: goreleaser/goreleaser-action@master 
         with:
           distribution: ${{ matrix.distribution }}
           version: ${{ matrix.version }}
